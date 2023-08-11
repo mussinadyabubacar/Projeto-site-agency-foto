@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* VARIAVEIS */
+
+/* ESTILOS GERAIS */
+
+html {
+
+    font-size: 62.5%;
+
+}
