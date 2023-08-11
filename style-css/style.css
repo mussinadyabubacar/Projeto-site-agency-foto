@@ -10,10 +10,28 @@
 
 /* VARIAVEIS */
 
+:root {
+
+    --font-v1: 'Roboto', sans-serif;
+    
+    --color-v1: #E9ECEF;
+    --color-v2: #FFF;
+    --color-v3: #212529;
+    --color-v4: #AB1618;
+    --color-v5: #374957;
+
+}
+
 /* ESTILOS GERAIS */
 
 html {
 
     font-size: 62.5%;
+
+}
+
+body {
+
+    font-family: var(--font-v1);
 
 }
