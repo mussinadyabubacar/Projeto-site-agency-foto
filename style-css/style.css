@@ -110,8 +110,7 @@ a {
 
 .navbar-list_link:hover {
 
-    color: var(--color-v2);
-    background-color: var(--color-v4);
+    color: var(--color-v4);
 
 }
 
@@ -164,8 +163,6 @@ a {
     .navbar-list_link:hover {
 
         transform: scale(1.2);
-        background: none;
-        color: var(--color-v4);
 
     }
 
