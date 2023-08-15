@@ -85,7 +85,7 @@ a {
     overflow: hidden;
     background-color: var(--color-v5);
     backdrop-filter: blur(10px);
-    transition: ease-in-out 0.2s all;
+    transition: ease-in-out 0.4s all;
 
 }
 
