@@ -446,7 +446,7 @@ section {
     color: var(--color-v3);
     font-size: 2rem;
     font-weight: 700;
-    padding: 2rem 0rem;
+    padding: 2rem 2.8rem 0rem 0rem;
     text-transform: uppercase;
 
 }
