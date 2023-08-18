@@ -78,7 +78,7 @@ section {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 2.4rem;
+    margin: 2.4rem 0rem;
 
 }
 
@@ -87,6 +87,7 @@ section {
     .section-title {
 
         font-size: 3.2rem;
+        margin: 3.4rem 0rem;
 
     }
 
@@ -554,6 +555,12 @@ section {
 
 }
 
+.diferencial_title::before {
+
+    content: "";
+
+}
+
 .diferencial_descricao {
 
     color: var(--color-v1);
@@ -568,6 +575,18 @@ section {
     .diferenciais-c {
 
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    
+    .diferencial_title {
+
+        font-size: 2.4rem;
 
     }
 
