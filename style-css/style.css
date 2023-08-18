@@ -527,10 +527,20 @@ section {
 
 }
 
+.diferenciais-c {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
 .diferencial {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 1.5rem;
 
 }
@@ -550,5 +560,15 @@ section {
     font-size: 1.6rem;
     font-weight: 400;
     text-align: justify;
+
+}
+
+@media screen and (min-width: 670px) {
+    
+    .diferenciais-c {
+
+        flex-direction: row;
+
+    }
 
 }
