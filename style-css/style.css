@@ -559,7 +559,28 @@ section {
 
 .diferencial_title::before {
 
-    content: "";
+    font-size: 2.4rem;
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 1rem;
+    color: var(--color-v4);
+
+}
+
+.diferencial_title--preco::before {
+
+    content: "\f81d";
+
+}
+
+.diferencial_title--rapido::before {
+
+    content: "\f274";
+
+}
+
+.diferencial_title--qualidade::before {
+
+    content: "\f0b1";
 
 }
 
@@ -588,8 +609,18 @@ section {
     
     .diferencial_title {
 
-        font-size: 2.5rem;
+        font-size: 2.4rem;
+
+    }
+
+    .diferencial_title::before {
+
+        font-size: 3.4rem;
 
     }
 
 }
+
+/* ####################################### */
+            /* SECTION-SERVIÇOS */
+/* ####################################### */
