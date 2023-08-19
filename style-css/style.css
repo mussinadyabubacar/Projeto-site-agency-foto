@@ -624,3 +624,63 @@ section {
 /* ####################################### */
             /* SECTION-SERVIÇOS */
 /* ####################################### */
+
+.servicos {
+
+    background-color: var(--color-v1);
+
+}
+
+.servicos h2 {
+
+    color: var(--color-v3);
+    
+}
+
+.servicos-c {
+
+
+
+}
+
+.servico {
+
+    max-width: 32rem;
+    background-color: var(--color-v3);
+
+}
+
+.servico-texto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.1rem;
+    padding: 1.3rem;
+
+}
+
+.servico-texto_title {
+
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color-v2);
+
+}
+
+.servico-texto_descricao {
+
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--color-v2);
+
+}
+
+.servico-texto_ifo {
+
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-v2);
+
+}
