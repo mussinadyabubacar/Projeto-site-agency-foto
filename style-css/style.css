@@ -639,14 +639,19 @@ section {
 
 .servicos-c {
 
-
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
 
 }
 
 .servico {
 
-    max-width: 32rem;
+    flex-shrink: 0;
+    max-width: 20rem;
+    /* height: 34.4rem; */
     background-color: var(--color-v3);
+    box-shadow: 0rem 0rem 1rem var(--color-v3);
 
 }
 
@@ -654,15 +659,16 @@ section {
 
     display: flex;
     flex-direction: column;
-    align-items: start;
-    gap: 1.1rem;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
     padding: 1.3rem;
 
 }
 
 .servico-texto_title {
 
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--color-v2);
 
@@ -670,7 +676,7 @@ section {
 
 .servico-texto_descricao {
 
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--color-v2);
 
@@ -681,6 +687,6 @@ section {
     font-size: 1.7rem;
     font-weight: 400;
     font-style: italic;
-    color: var(--color-v2);
+    color: var(--color-v4);
 
 }
