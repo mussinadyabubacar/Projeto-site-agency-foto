@@ -649,19 +649,39 @@ section {
 .servicos-c::after {
 
     position: absolute;
-    font-size: 5.6rem;
+    font-size: 3.6rem;
+    font-weight: 900;
     content: "\2192";
-    right: 1rem;
+    top: 0.5rem;
+    right: 3.2rem;
     color: var(--color-v4);
+    animation: seta 0.4s ease-in-out 0s infinite alternate;
+
+}
+
+@keyframes seta {
+    
+    from {
+
+        right: 3.2rem;
+
+    }
+
+    to {
+
+        right: 0.2rem;
+
+    }
 
 }
 
 .servico {
 
     flex-shrink: 0;
-    max-width: 25rem;
+    width: 25rem;
     background-color: var(--color-v3);
     box-shadow: 0rem 0rem 1rem var(--color-v3);
+    cursor: pointer;
 
 }
 
@@ -698,5 +718,40 @@ section {
     font-weight: 400;
     font-style: italic;
     color: var(--color-v4);
+
+}
+
+@media screen and (min-width: 850px) {
+    
+    .servicos-c {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        overflow-x: visible;
+
+    }
+
+    .servicos-c::after {
+
+        content: "";
+
+    }
+
+    .servico {
+
+        flex-shrink: 1;
+        min-width: 31rem !important;
+        transition: all 0.4s ease-in-out;
+
+    }
+
+    .servico:hover {
+
+        transform: scale(1.04);
+        border: 0.2rem solid var(--color-v4);
+        box-shadow: 0rem 0rem 4rem var(--color-v4);
+
+    }
 
 }
