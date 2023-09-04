@@ -639,17 +639,27 @@ section {
 
 .servicos-c {
 
+    position: relative;
     display: flex;
     gap: 2rem;
     overflow-x: auto;
 
 }
 
+.servicos-c::after {
+
+    position: absolute;
+    font-size: 5.6rem;
+    content: "\2192";
+    right: 1rem;
+    color: var(--color-v4);
+
+}
+
 .servico {
 
     flex-shrink: 0;
-    max-width: 20rem;
-    /* height: 34.4rem; */
+    max-width: 25rem;
     background-color: var(--color-v3);
     box-shadow: 0rem 0rem 1rem var(--color-v3);
 
