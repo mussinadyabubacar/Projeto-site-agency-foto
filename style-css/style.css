@@ -649,8 +649,8 @@ section {
 .servicos-c::after {
 
     position: absolute;
-    font-size: 3.6rem;
-    font-weight: 900;
+    font-size: 5.6rem;
+    font-weight: bold;
     content: "\2192";
     top: 0.5rem;
     right: 3.2rem;
