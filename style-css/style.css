@@ -715,7 +715,7 @@ section {
 .servico-texto_ifo {
 
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: bold;
     font-style: italic;
     color: var(--color-v4);
 
