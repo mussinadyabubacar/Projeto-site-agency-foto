@@ -169,7 +169,7 @@ section {
 
 }
 
-.navbar-list_link:hover {
+.navbar-list_link:hover, .navbar-list_link:active {
 
     color: var(--color-v4);
 
@@ -264,7 +264,7 @@ section {
 
     min-width: 30rem;
     min-height: 100vh;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 6.4rem;
     flex-wrap: wrap;
@@ -751,6 +751,69 @@ section {
         transform: scale(1.04);
         border: 0.2rem solid var(--color-v4);
         box-shadow: 0rem 0rem 4rem var(--color-v4);
+
+    }
+
+}
+
+/* ####################################### */
+            /* SECTION-GALERIA */
+/* ####################################### */
+
+.galeria-c {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galeria-c-item {
+
+    position: relative;
+    min-width: 17rem;
+    overflow: hidden;
+
+}
+
+.galeria-c-item_tumb {
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+.galeria-c-item:hover .galeria-c-item_tumb {
+
+    transform: scale(1.2);
+    opacity: 0.1;
+
+}
+
+.galeria-c-item_info {
+
+    position: absolute;
+    font-size: 2.2rem;
+    font-weight: 600;
+    left: 5.4rem;
+    bottom: 3.2rem;
+    color: var(--color-v1);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.galeria-c-item:hover .galeria-c-item_info {
+
+    opacity: 1;
+
+}
+
+@media screen and (min-width: 960px){
+    
+    .galeria-c-item {
+
+        flex: 0 0 25%;
 
     }
 
