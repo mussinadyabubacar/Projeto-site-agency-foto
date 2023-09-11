@@ -774,6 +774,7 @@ section {
     position: relative;
     min-width: 17rem;
     overflow: hidden;
+    cursor: pointer;
 
 }
 
