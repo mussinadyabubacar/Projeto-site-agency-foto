@@ -948,7 +948,7 @@ section, footer {
             /* SECTION-FOOTER */
 /* ####################################### */
 
-.footer-navbar {
+.footer-helper {
 
     display: flex;
     align-items: first baseline;
@@ -1034,5 +1034,13 @@ section, footer {
 
     color: var(--color-v4);
     transform: scale(1.2);
+
+}
+
+.footer-navbar_btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
