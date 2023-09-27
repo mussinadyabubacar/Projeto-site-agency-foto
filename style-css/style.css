@@ -56,7 +56,7 @@ img {
 
 }
 
-section {
+section, footer {
 
     min-width: 30rem;
     padding: 1.6rem;
@@ -65,7 +65,7 @@ section {
 
 @media screen and (min-width: 960px) {
     
-    section {
+    section, footer {
 
         padding: 1.6rem calc((100% - 96rem - 1.6rem) / 2);
 
@@ -941,5 +941,81 @@ section {
         box-shadow: 0px 0px 10px var(--color-v4);
 
     }
+
+}
+
+/* ####################################### */
+            /* SECTION-FOOTER */
+/* ####################################### */
+
+.footer-navbar {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.footer-c {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.footer-c_logo {
+
+    width: 13rem;
+
+}
+
+.footer-navbar-list {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+
+}
+
+.footer-navbar-list_link {
+
+    display: block;
+    font-size: 1.6rem;
+    color: var(--color-v1);
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    transition: ease-in-out .4s all;
+
+}
+
+.foote-navbar-c2_title {
+
+    color: var(--color-v1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.foote-navbar-c2_title--destaque {
+
+    color: var(--color-v4);
+
+}
+
+.footer-navbar-icon {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 
 }
