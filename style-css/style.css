@@ -22,6 +22,7 @@
     --color-v4: #AB1618;
     --color-v5: #374957;
     --color-v6: #000;
+    --color-v7: #00B8D8;
 
 }
 
@@ -947,13 +948,42 @@ section, footer {
 /* ####################################### */
             /* SECTION-FOOTER */
 /* ####################################### */
+.footer-navbar {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+
+}
 
 .footer-helper {
 
     display: flex;
     align-items: first baseline;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2rem;
+
+}
+
+@media screen and (min-width: 600px) {
+    
+    .footer-helper {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+}
+
+.footer-c {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
 }
 
@@ -972,6 +1002,16 @@ section, footer {
     gap: 2.5rem;
     padding: 1rem;
     list-style: none;
+
+}
+
+@media screen and (min-width: 600px) {
+    
+    .footer-navbar-list {
+
+        flex-direction: row;
+
+    }
 
 }
 
@@ -1021,6 +1061,16 @@ section, footer {
 
 }
 
+@media screen and (min-width: 600px) {
+    
+    .footer-navbar-icon {
+
+        flex-direction: row;
+
+    }
+
+}
+
 .footer-navbar-icon_link {
 
     display: block;
@@ -1042,5 +1092,83 @@ section, footer {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.footer-navbar-copy {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+
+}
+
+.footer-navbar-copy_descricao {
+
+    color: var(--color-v1);
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+.data::after {
+
+    content: '\a';
+    white-space: pre;
+
+}
+
+@media screen and (min-width: 600px) {
+    
+    .data::after {
+
+        content: '';
+
+    }
+
+}
+
+.footer-navbar-copy_dev {
+
+    color: var(--color-v1);
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.footer-navbar-copy_dev--destaque {
+
+    color: var(--color-v4);
+    font-style: italic;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.footer-navbar-copy_dev--destaque:hover {
+
+    color: var(--color-v7);
+    text-decoration: underline;
+
+}
+
+.footer-navbar-copy_dev--destaque::before {
+
+    content: '\a';
+    white-space: pre;
+
+}
+
+@media screen and (min-width: 600px) {
+    
+    .footer-navbar-copy_dev--destaque::before {
+
+        content: '';
+
+    }
 
 }
