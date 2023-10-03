@@ -64,7 +64,7 @@ section, footer {
 
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px) and (max-width: 1440px) {
     
     section, footer {
 
@@ -1033,6 +1033,16 @@ section, footer {
 
 }
 
+.footer-navbar-c2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
 .foote-navbar-c2_title {
 
     color: var(--color-v1);
@@ -1069,6 +1079,12 @@ section, footer {
 
     }
 
+    .foote-navbar-c2_title {
+
+        font-size: 2rem;
+
+    }
+
 }
 
 .footer-navbar-icon_link {
@@ -1076,7 +1092,7 @@ section, footer {
     display: block;
     color: var(--color-v6);
     font-size: 4.2rem;
-    transition: ease-in-out 0.4s all;
+    transition: ease-in-out 0.5s all;
 
 }
 
