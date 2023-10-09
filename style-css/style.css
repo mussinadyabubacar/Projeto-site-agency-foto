@@ -268,6 +268,8 @@ section, footer {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: 6.4rem;
     flex-wrap: wrap;
     padding: 1.6rem;
@@ -327,21 +329,24 @@ section, footer {
 
 }
 
-.hero-img {
+.div-hero-img {
 
     position: relative;
-    max-width: 23.6rem;
-    flex: 1 1 1rem;
     top: 4rem;
-    margin: auto;
+    flex: 6 1 1rem;
+
+}
+
+.hero-img {
+
+    width: 100%;
 
 }
 
 @media screen and (min-width: 576px) {
-    
-    .hero-section {
 
-        flex-direction: row-reverse;
+    .hero-section-text {
+
         align-items: center;
 
     }
@@ -355,14 +360,8 @@ section, footer {
     .hero-section-text_descriptio {
     
         font-size: 1.6rem;
+        max-width: 70rem;
     
-    }
-
-    .hero-img {
-
-        max-width: 40rem;
-        top: 0.5;
-
     }
 
 }
@@ -371,17 +370,18 @@ section, footer {
     
     .hero-section {
 
-        display: flex;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 5rem;
         padding: 0rem calc((100% - 96rem - 1.6rem) / 2);
 
     }
 
-    .hero-img {
+    .hero-section-text {
 
-        max-width: 48rem;
+        align-items: flex-start;
+        gap: 4rem;
 
     }
 
@@ -404,6 +404,7 @@ section, footer {
         transition: ease-in-out 0.5s;
 
     }
+
     .hero-section-text_cta:hover {
 
         border: 0.2rem solid var(--color-v4);
