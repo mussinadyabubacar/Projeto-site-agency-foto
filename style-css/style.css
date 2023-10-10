@@ -1091,7 +1091,7 @@ section, footer {
 .footer-navbar-icon_link {
 
     display: block;
-    color: var(--color-v6);
+    color: var(--color-v2);
     font-size: 4.2rem;
     transition: ease-in-out 0.5s all;
 
