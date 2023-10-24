@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --font-v1: 'Roboto', sans-serif;
+    
+    --color-v1: #E9ECEF;
+    --color-v2: #FFF;
+    --color-v3: #212529;
+    --color-v4: #AB1618;
+    --color-v5: #374957;
+    --color-v6: #000;
+    --color-v7: #00B8D8;
+
+}

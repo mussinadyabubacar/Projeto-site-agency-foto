@@ -1,0 +1,141 @@
+.navbar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-v1);
+    box-shadow: 0 0 0.5rem var(--color-v3);
+    z-index: 5;
+
+}
+
+    .navbar-header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.6rem;
+
+    }
+
+        .navbar-header_logo {
+
+            width: 13rem;
+
+        }
+
+        .navbar-header_toggle {
+
+            font-size: 2.4rem;
+            border: none;
+            color: var(--color-v3);
+            cursor: pointer;
+
+        }
+
+    .navbar-list {
+
+        height: 0;
+        overflow: hidden;
+        background-color: var(--color-v5);
+        transition: ease-in-out 0.4s all;
+
+    }
+
+    .navbar-list--show-link {
+
+        height: 100vh;
+
+    }
+
+    .navbar-list_link {
+
+        display: block;
+        font-size: 1.6rem;
+        color: var(--color-v1);
+        font-weight: 600;
+        text-align: center;
+        padding: 1.6rem 0rem;
+        transition: ease-in-out .4s all;
+
+    }
+
+    .navbar-icon {
+
+        display: none;
+
+    }
+
+    @media screen and (min-width: 992px) {
+        
+        .navbar {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.6rem calc((100% - 99.2rem) /2);
+
+        }
+
+        .navbar-header {
+
+            padding: 0;
+
+        }
+
+        .navbar-header_toggle {
+
+            display: none;
+
+        }
+
+        .navbar-list {
+
+            display: flex;
+            gap: 3.4rem;
+            align-items: center;
+            background: none;
+            padding: 1.6rem;
+
+        }
+
+        .navbar-list_link {
+
+            color: var(--color-v3);
+
+        }
+
+        .navbar-list_link:hover {
+
+            color: var(--color-v4);
+            transform: scale(1.2);
+
+        }
+
+        .navbar-icon {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3.4rem;
+
+        }
+
+        .navbar-icon_link {
+
+            display: block;
+            color: var(--color-v3);
+            font-size: 2.4rem;
+            transition: ease-in-out 0.4s all;
+
+        }
+
+        .navbar-icon_link:hover {
+
+            color: var(--color-v4);
+            transform: scale(1.2);
+
+        }
+
+    }

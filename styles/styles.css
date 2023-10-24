@@ -1,0 +1,83 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero-section.css');
+@import url('./about-section.css');
+@import url('./diferenciais-section.css');
+@import url('./servicos-section.css');
+@import url('./galeria-section.css');
+@import url('./contato-section.css');
+@import url('./footer.css');
+
+html {
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    font-family: var(--font-v1);
+    background-color: var(--color-v3);
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+ul,li,ol {
+
+    list-style: none;
+
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+section, footer {
+
+    width: 100%;
+    min-width: 30rem;
+    padding: 1.6rem;
+
+}
+
+.section-title {
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2.4rem 0rem;
+
+}
+
+.section-title--destaque {
+
+    color: var(--color-v4);
+
+}
+
+@media screen and (min-width: 992px) {
+
+    section, footer {
+
+        padding: 1.6rem calc((100% - 99.2rem - 1.6rem) / 2);
+
+    }
+    
+    .section-title {
+
+        font-size: 3.2rem;
+        margin: 3.4rem 0rem;
+
+    }
+
+}
