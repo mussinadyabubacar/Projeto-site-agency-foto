@@ -8,6 +8,12 @@
 @import url('./contato-section.css');
 @import url('./footer.css');
 
+html, body {
+
+    height: 100vh;
+
+}
+
 html {
 
     font-size: 62.5%;
