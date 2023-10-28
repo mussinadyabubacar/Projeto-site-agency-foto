@@ -15,6 +15,7 @@
     position: relative;
     display: flex;
     gap: 2rem;
+    padding: 1.6rem;
     overflow-x: auto;
 
 }
@@ -51,7 +52,7 @@
 .servico {
 
     flex-shrink: 0;
-    max-width: 30rem;
+    width: 25rem;
     background-color: var(--color-v3);
     box-shadow: 0rem 0rem 1rem var(--color-v3);
     cursor: pointer;
@@ -102,7 +103,7 @@
 
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: unset;
         overflow-x: visible;
 
     }
