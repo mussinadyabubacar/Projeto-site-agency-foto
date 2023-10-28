@@ -96,7 +96,7 @@
 
     .contato-c {
 
-        max-width: 80rem;
+        max-width: 50rem;
         padding: 1.6rem;
 
     }
@@ -104,9 +104,9 @@
     .contato-c-header {
 
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 2.4rem;
+        /* align-items: center;
+        justify-content: ;
+        gap: 2.4rem; */
         padding: 1.6rem;
 
     }
