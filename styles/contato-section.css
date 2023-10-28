@@ -105,20 +105,20 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-bottom: 3.2rem;
+        margin-bottom: 1rem;
 
     }
 
     .contato-c-header input:first-child {
 
-        margin-right: 1.6rem;
+        margin-right: 1rem;
 
     }
 
     .contato-c_textarea {
 
         height: 20rem;
-        margin-bottom: 3.2rem;
+        margin-bottom: 1rem;
 
     }
     
