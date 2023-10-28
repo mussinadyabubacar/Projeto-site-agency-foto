@@ -51,8 +51,7 @@
 
 .servico {
 
-    flex-shrink: 0;
-    width: 25rem;
+    flex: 0 0 25rem;
     background-color: var(--color-v3);
     box-shadow: 0rem 0rem 1rem var(--color-v3);
     cursor: pointer;
