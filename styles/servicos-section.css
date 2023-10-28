@@ -117,8 +117,7 @@
 
     .servico {
 
-        /* margin: 1rem; */
-        width: 25%;
+        margin: 1rem;
         transition: all 0.4s ease-in-out;
 
     }
