@@ -103,7 +103,7 @@
         .navbar-list_link {
 
             color: var(--color-v3);
-            padding: 0 1rem;
+            /* padding: 0 1rem; */
 
         }
 
@@ -128,7 +128,7 @@
             display: block;
             color: var(--color-v3);
             font-size: 2.4rem;
-            padding: 0 0.5rem;
+            /* padding: 0 0.5rem; */
             transition: ease-in-out 0.4s all;
 
         }
@@ -140,4 +140,20 @@
 
         }
 
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .navbar-icon_link {
+
+            padding: 0 1rem;
+
+        }
+
+        .navbar-icon_link {
+
+            padding: 0 0.5rem;
+
+        }
+        
     }
