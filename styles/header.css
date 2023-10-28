@@ -142,11 +142,11 @@
 
     }
 
-    @media screen and (min-width: 1380px) {
+    @media screen and (min-width: 1200px) {
 
         .navbar-list_link {
 
-            padding: 0 1rem;
+            padding: 0 0.5rem;
 
         }
 
