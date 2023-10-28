@@ -30,7 +30,7 @@
 .contato-c-header input {
 
     width: 100%;
-    max-width: 74rem;
+    max-width: 32rem;
     height: 5.4rem;
     font-size: 1.6rem;
     font-weight: 400;
@@ -106,8 +106,6 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 3.2rem;
-        /* gap: 2.4rem;
-        padding: 1.6rem; */
 
     }
 
