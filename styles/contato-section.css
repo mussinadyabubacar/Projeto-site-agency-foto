@@ -109,6 +109,12 @@
 
     }
 
+    .contato-c-header input:first-child {
+
+        margin-right: 1.6rem;
+
+    }
+
     .contato-c_textarea {
 
         height: 20rem;
