@@ -97,7 +97,6 @@
     .contato-c {
 
         max-width: 50%;
-        gap: 10rem;
 
     }
 
@@ -106,6 +105,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-bottom: 3.2rem;
         /* gap: 2.4rem;
         padding: 1.6rem; */
 
@@ -114,6 +114,7 @@
     .contato-c_textarea {
 
         height: 20rem;
+        margin-bottom: 3.2rem;
 
     }
     
