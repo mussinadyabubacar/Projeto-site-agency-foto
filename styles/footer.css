@@ -51,13 +51,6 @@
     font-weight: 600;
     font-style: normal;
     text-align: center;
-    transition: ease-in-out .4s all;
-
-}
-
-.footer-navbar-list_link:hover {
-
-    color: var(--color-v4);
 
 }
 
@@ -103,14 +96,6 @@
     display: block;
     color: var(--color-v2);
     font-size: 2.4rem;
-    transition: ease-in-out 0.5s all;
-
-}
-
-.footer-navbar-icon_link:hover {
-
-    color: var(--color-v4);
-    transform: scale(1.2);
 
 }
 
@@ -220,4 +205,34 @@
 
     }
 
+}
+
+@media screen and (min-width: 992px) {
+
+    .footer-navbar-list_link {
+
+        transition: all 0.4s ease-in-out;
+
+    }
+
+    .footer-navbar-list_link:hover {
+
+        color: var(--color-v4);
+    
+    }
+
+    .footer-navbar-icon_link {
+
+        transition: all0.4s ease-in-out;
+        padding: 0 1rem;
+
+    }
+
+    .footer-navbar-icon_link:hover {
+
+        color: var(--color-v4);
+        transform: scale(1.2);
+    
+    }
+    
 }

@@ -97,12 +97,14 @@
     .contato-c {
 
         max-width: 80rem;
+        padding: 1.6rem;
 
     }
 
     .contato-c-header {
 
         flex-direction: row;
+        padding: 1.6rem;
 
     }
 

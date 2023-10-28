@@ -104,7 +104,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: unset;
-        gap: 10rem;
+        /* gap: 10rem; */
         overflow-x: visible;
 
     }
