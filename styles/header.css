@@ -95,7 +95,7 @@
             display: flex;
             gap: 3.4rem;
             align-items: center;
-            justify-content: space-around;
+            /* justify-content: space-around; */
             background: none;
             padding: 1.6rem;
 
@@ -140,3 +140,13 @@
         }
 
     }
+
+@media screen and (min-width: 1440px) {
+
+    .navbar-list {
+
+        gap: 10rem;
+
+    }
+    
+}
