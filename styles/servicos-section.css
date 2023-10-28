@@ -104,7 +104,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: unset;
-        /* max-width: 100rem; */
+        gap: 10rem;
         overflow-x: visible;
 
     }
