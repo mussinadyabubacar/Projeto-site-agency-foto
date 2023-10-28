@@ -95,6 +95,7 @@
             display: flex;
             gap: 3.4rem;
             align-items: center;
+            justify-content: space-around;
             background: none;
             padding: 1.6rem;
 
