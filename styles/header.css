@@ -75,6 +75,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.6rem calc((100% - 99.2rem) /2);
+            max-width: 120rem;
 
         }
 
@@ -104,7 +105,7 @@
         .navbar-list_link {
 
             color: var(--color-v3);
-            flex: 1 1 1rem;
+            /* flex: 1 1 1rem; nao funcionou*/
 
         }
 
