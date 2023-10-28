@@ -30,6 +30,7 @@
 
 .hero-section-text {
 
+    max-width: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,6 +62,8 @@
 
 .hero-section-text_cta {
 
+    /* width: 100%;
+    max-width: 25rem; */
     color: var(--color-v2);
     font-size: 1.6rem;
     font-weight: 500;
