@@ -104,13 +104,14 @@
     .contato-c-header {
 
         flex-direction: row;
-        /* gap: 2.4rem; */
+        align-items: center;
+        justify-content: center;
+        gap: 2.4rem;
 
     }
 
     .contato-c_textarea {
 
-        max-width: 50rem;
         height: 35rem;
 
     }
