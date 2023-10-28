@@ -95,7 +95,7 @@
             display: flex;
             gap: 3.4rem;
             align-items: center;
-            /* justify-content: space-around; */
+            flex: 1 1 1rem;
             background: none;
             padding: 1.6rem;
 
@@ -119,6 +119,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex: 1 1 1rem;
             gap: 3.4rem;
 
         }
