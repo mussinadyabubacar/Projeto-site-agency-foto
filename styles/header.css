@@ -75,7 +75,6 @@
             justify-content: space-between;
             align-items: center;
             padding: 1.6rem calc((100% - 99.2rem) /2);
-            /* max-width: 120rem; */
 
         }
 
@@ -96,7 +95,6 @@
             display: flex;
             gap: 3.4rem;
             align-items: center;
-            /* flex: 1 1 1rem; */
             background: none;
             padding: 1.6rem;
 
@@ -105,8 +103,7 @@
         .navbar-list_link {
 
             color: var(--color-v3);
-            text-align: unset;
-            /* flex: 1 1 1rem; nao funcionou*/
+            /* padding: 0 1rem; */
 
         }
 
@@ -122,7 +119,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /* flex: 1 1 1rem; */
             gap: 3.4rem;
 
         }
@@ -146,12 +142,18 @@
 
     }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
 
-    .navbar-list {
+    .navbar-list_link {
 
-        gap: 10rem;
+        padding: 0 1rem;
+
+    }
+
+    .navbar-icon_link {
+
+        padding: 0 1rem;
 
     }
     
-} */
+}
