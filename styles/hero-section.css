@@ -8,7 +8,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
     margin-top: 6rem;
 
 }
@@ -19,6 +21,8 @@
     align-items: center;
     justify-content: center;
     flex: 1 1 1rem;
+    -webkit-box-flex: 1 1 1rem;
+    -moz-box-flex: 1 1 1rem;
 
 }
 
@@ -35,7 +39,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.6rem;
+    column-gap: 1.6rem;
+    -webkit-column-gap: 1.6rem;
+    -moz-column-gap: 1.6rem;
     flex: 1 1 1rem;
     padding: 1.6rem 0;
 
